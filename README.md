@@ -10,9 +10,10 @@ A machine learning pipeline that predicts the probability a home team wins in th
 - **Final model:** Logistic regression with training samples weighted by recency
 - **Result:** 61.70% Accuracy with 63.62% logloss, vs 57.45% baseline (home team always winning)
 
-- ## Project Structure
 
-- ```
+## Project Structure
+
+```
 ├── notebooks/
 │   ├── 01_data_collection.ipynb      # Pulls raw schedules/results from nflverse
 │   ├── 02_feature_engineering.ipynb  # Rolling team stats + Elo ratings
@@ -26,7 +27,7 @@ A machine learning pipeline that predicts the probability a home team wins in th
 
 ## Methodology
 
-**Features (per game): **
+**Features (per game):**
 - Each team's rolling averages over their last 5 games: points scored, points allowed, win percentage
 - Pre-game Elo ratings for both teams
 
