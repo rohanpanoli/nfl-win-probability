@@ -1,0 +1,10 @@
+nflreadpy
+pyarrow
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+joblib
+jupyter
+ipykernel
