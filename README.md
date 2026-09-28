@@ -13,7 +13,7 @@ A machine learning pipeline that predicts the probability a home team wins in th
 
 ## Project Structure
 
-- ```
+```
 ├── notebooks/
 │   ├── 01_data_collection.ipynb      # Pulls raw schedules/results from nflverse
 │   ├── 02_feature_engineering.ipynb  # Rolling team stats + Elo ratings
