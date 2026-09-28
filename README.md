@@ -27,7 +27,7 @@ A machine learning pipeline that predicts the probability a home team wins in th
 
 ## Methodology
 
-**Features (per game): **
+**Features (per game):**
 - Each team's rolling averages over their last 5 games: points scored, points allowed, win percentage
 - Pre-game Elo ratings for both teams
 
