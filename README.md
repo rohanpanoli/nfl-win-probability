@@ -6,7 +6,7 @@ A machine learning pipeline that predicts the probability a home team wins in th
 ## Overview
 
 - **Goal:** To predict the probability an NFL team wins a game for every upcoming game in the 2026 Season
-- **Data:** Game results and schedules form [nflverse]
+- **Data:** Game results and schedules from [nflverse]
 - **Final model:** Logistic regression with training samples weighted by recency
 - **Result:** 61.70% Accuracy with 63.62% logloss, vs 57.45% baseline (home team always winning)
 
